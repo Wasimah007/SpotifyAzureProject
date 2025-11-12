@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlDatabaseSRC",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLKSRC",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
