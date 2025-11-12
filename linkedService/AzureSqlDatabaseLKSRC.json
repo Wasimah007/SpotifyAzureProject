@@ -1,0 +1,18 @@
+{
+	"name": "AzureSqlDatabaseLKSRC",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "linked service to source azure sql db ",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "azuresqlprojectserversrc.database.windows.net",
+			"database": "azureprojectspotify",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminwaseem",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE5QTVGMjY0LUZGMkUtNDMwRi04QkUxLTE0OTgwRDc4MDc0Q19hZWRkZmE2Ny05OThjLTQ1OTctOWUyNS05MmUwNDQ3NmE3MDkiDQp9"
+		}
+	}
+}
