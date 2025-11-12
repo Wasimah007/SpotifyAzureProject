@@ -1,0 +1,9 @@
+{
+	"name": "ADF-SpotifyAzureProject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5a0b2d21-cc06-4a85-b907-a38f60e623a4",
+		"tenantId": "f92bcdf4-7827-4fed-b45e-81c31b92f7c6"
+	}
+}
