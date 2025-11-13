@@ -326,7 +326,6 @@
 					{
 						"activity": "ForEachLoopDynamic",
 						"dependencyConditions": [
-							"Succeeded",
 							"Failed"
 						]
 					}
